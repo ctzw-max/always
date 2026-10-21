@@ -1,6 +1,6 @@
 local free_access = loadstring(game:HttpGet("https://pastebin.com/raw/mq68M8Zw"))() -- make it return true if delated
 --
-if free_access == true then
+if free_access == return true
     local ReplicatedStorage = game:GetService('ReplicatedStorage')
     local OldGetFenv; OldGetFenv = hookfunction(getrenv().getfenv, function(...)
         if not checkcaller() then
